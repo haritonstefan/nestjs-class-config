@@ -4,6 +4,7 @@
   "description": "Nestjs configuration module that uses class-validator and class-transformer, to validate and export a Config Class instance",
   "main": "dist/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "rm -Rf ./dist && tsc -p tsconfig.build.json",
     "test": "jest"
   },
