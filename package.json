@@ -1,6 +1,6 @@
 {
   "name": "nestjs-class-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Nestjs configuration module that uses class-validator and class-transformer, to validate and export a Config Class instance",
   "main": "dist/index.js",
   "scripts": {
