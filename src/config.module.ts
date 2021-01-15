@@ -1,6 +1,9 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { ClassType } from 'class-transformer/ClassTransformer';
 import { loadSync, load } from 'class-config';
+
+export declare type ClassType<T> = {
+    new (...args: any[]): T;
+};
 
 export interface ConfigModuleOptions {
     class: ClassType<any>
