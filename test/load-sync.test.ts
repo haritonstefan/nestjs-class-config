@@ -1,4 +1,4 @@
-import { IsEmail, IsNotEmpty, IsNumber, IsString, ValidationError, } from 'class-validator';
+import { IsEmail, IsNotEmpty, IsNumber, IsString, } from 'class-validator';
 import { Expose, Type } from 'class-transformer';
 import { Test } from '@nestjs/testing';
 import { ConfigModule } from '../src';
